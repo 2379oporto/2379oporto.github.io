@@ -1,0 +1,122 @@
+<html>
+
+    <head>
+        <title>Curriculum Vitae HTML y CSS</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="fonts/style.css">
+    </head>
+
+    <body>
+        <span class="icon-embed2"></span>
+        <header>
+
+            <nav>
+                <ul>
+                    <li><span class="icon-phone"></span>Teléfono: 911-4271865</li>
+                    <li><span class="icon-location2"></span>Dirección: Castilla S/N</li>
+                    <li><span class="icon-mail4"></span>Contacto: developer@gmail.com</li>
+                    
+                </ul>
+            </nav>
+
+            <h1>Curriculum Vitae</h1>
+            <nav>
+                <p><a href="#contact">Contacta conmigo</a></p>    
+            </nav>
+            
+        </header>
+<button onclick='saludar("Recursos", "Humanos")'>Click Saludo</button>
+<script>
+    function saludar(nombre, apellido){
+        console.log("Hola " + nombre + " " + apellido);
+        alert("Hola " + nombre + " " + apellido + " " + "Soy el Programador que estan buscando")
+    
+    }
+    //saludar("Recursos", "Humanos") 
+    
+</script>    
+
+<div class="foto">
+            <img src="https://randomuser.me/api/portraits/men/59.jpg">
+        </div>
+         
+        <main>
+            <section id="hero">
+                <h1>Marcos Valencia</h1>
+                <h2>Senior Developer</h2>
+            </section>
+            <section id="informacion">
+                <h2>Experiencia:</h2>
+                <h4>5 Años en Google</h4>
+                <h4>5 Años en Mercado Libre</h4>
+                <h2>Habilidades:</h2>
+                <h4>Desarrollo Web</h4>
+                <h4>Analista de Datos</h4>
+                
+            </section>
+            <section id="projects">
+                <h2>Proyectos Realizados</h2>   
+                <div class="projects-list">
+
+                    <div class="project-detail">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxZyIxqQChIqIAeDim4f166AxwacezS6lOCSCjI_wHGHedGWn-24hwZEsKE4CUSCE1HE&usqp=CAU">
+                        <h3>Proyecto 1</h3>
+                        <p>Tecnológico</p>
+                        <a href="http://google.com">Enlace al proyecto</a>
+                    </div>
+                    
+                        <div class="project-detail">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxZyIxqQChIqIAeDim4f166AxwacezS6lOCSCjI_wHGHedGWn-24hwZEsKE4CUSCE1HE&usqp=CAU">
+                        <h3>Proyecto 2</h3>
+                        <p>Digitalización</p>
+                        <a href="http://google.com">Enlace al proyecto</a>
+                    </div>
+
+                    <div class="project-detail">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxZyIxqQChIqIAeDim4f166AxwacezS6lOCSCjI_wHGHedGWn-24hwZEsKE4CUSCE1HE&usqp=CAU">
+                        <h3>Proyecto 3</h3>
+                    
+                        <p>Marcketing</p>
+                        <a href="http://google.com">Enlace al proyecto</a>
+                    </div>
+
+                    <div class="project-detail">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxZyIxqQChIqIAeDim4f166AxwacezS6lOCSCjI_wHGHedGWn-24hwZEsKE4CUSCE1HE&usqp=CAU">
+                        <h3>Proyecto 4</h3>
+                        <p>Ventas</p>
+                        <a href="http://google.com">Enlace al proyecto</a>    
+                </div>
+            </section>   
+            
+            </section>      
+        </main>
+       <section></section>
+       <section></section>
+        <foter>
+            <section id="contact">
+                <h2>Contacta conmigo</h2>
+    
+                <form>
+                    <div>
+                        <label>Nombre</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>Asunto</label>
+                        <input type="text">
+                    </div>  
+                
+                    <div>
+                        <i class="fa-solid fa-user-headset"></i>
+                        <label>Mensaje</label>
+                        <textarea></textarea>
+                    </div>   
+                    <button>Enviar</button>     
+                   
+                </form>
+            </section>
+        </foter>
+        
+    </body>
+</html>

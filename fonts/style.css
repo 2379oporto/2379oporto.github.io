@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?sa6ft0');
+  src:  url('icomoon.eot?sa6ft0#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?sa6ft0') format('truetype'),
+    url('icomoon.woff?sa6ft0') format('woff'),
+    url('icomoon.svg?sa6ft0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e900";
+}
+.icon-home2:before {
+  content: "\e901";
+}
+.icon-image:before {
+  content: "\e90d";
+}
+.icon-bullhorn:before {
+  content: "\e91a";
+}
+.icon-file-picture:before {
+  content: "\e927";
+}
+.icon-folder-download:before {
+  content: "\e933";
+}
+.icon-folder-upload:before {
+  content: "\e934";
+}
+.icon-lifebuoy:before {
+  content: "\e941";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-clock:before {
+  content: "\e94e";
+}
+.icon-tv:before {
+  content: "\e95b";
+}
+.icon-redo2:before {
+  content: "\e968";
+}
+.icon-user-check:before {
+  content: "\e975";
+}
+.icon-spinner9:before {
+  content: "\e982";
+}
+.icon-lock:before {
+  content: "\e98f";
+}
+.icon-stats-bars:before {
+  content: "\e99c";
+}
+.icon-fire:before {
+  content: "\e9a9";
+}
+.icon-switch:before {
+  content: "\e9b6";
+}
+.icon-cloud-upload:before {
+  content: "\e9c3";
+}
+.icon-attachment:before {
+  content: "\e9cd";
+}
+.icon-eye-minus:before {
+  content: "\e9d0";
+}
+.icon-woman:before {
+  content: "\e9dd";
+}
+.icon-happy:before {
+  content: "\e9df";
+}
+.icon-grin2:before {
+  content: "\e9ea";
+}
+.icon-neutral:before {
+  content: "\e9f7";
+}
+.icon-point-right:before {
+  content: "\ea04";
+}
+.icon-point-down:before {
+  content: "\ea05";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-checkmark2:before {
+  content: "\ea11";
+}
+.icon-spell-check:before {
+  content: "\ea12";
+}
+.icon-stop2:before {
+  content: "\ea1e";
+}
+.icon-volume-increase:before {
+  content: "\ea2b";
+}
+.icon-arrow-left:before {
+  content: "\ea38";
+}
+.icon-tab:before {
+  content: "\ea45";
+}
+.icon-checkbox-checked:before {
+  content: "\ea52";
+}
+.icon-text-height:before {
+  content: "\ea5f";
+}
+.icon-subscript2:before {
+  content: "\ea6c";
+}
+.icon-paragraph-right:before {
+  content: "\ea79";
+}
+.icon-embed:before {
+  content: "\ea7f";
+}
+.icon-embed2:before {
+  content: "\ea80";
+}
+.icon-mail4:before {
+  content: "\ea86";
+}
+.icon-google3:before {
+  content: "\ea8a";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
